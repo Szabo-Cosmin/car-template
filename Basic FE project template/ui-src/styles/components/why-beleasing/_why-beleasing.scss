@@ -1,0 +1,65 @@
+.why-beleasing-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.why-beleasing__title {
+  max-width: 980px;
+  width: 100%;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+
+.description {
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+.advantages {
+  display: flex;
+  list-style-type: none;
+  align-items: start;
+  padding: 0px;
+}
+
+.advantages__item {
+  margin-bottom: 40px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.home--icon1 {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #e7e7e7;
+  border-radius: 100% 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.icon {
+  margin-top: 20px;
+}
+
+.title-text {
+  margin-bottom: 10px;
+}
+
+.advantages__item:hover,
+.advantages__item:active {
+  transition: all 0.3s;
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: one;
+  animation-timing-function: ease-in;
+}
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  60% {
+    transform: translate(0, -30px);
+  }
+}

@@ -3,3 +3,31 @@
   top: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 1380px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Syne", sans-serif;
+}
+
+h1 {
+  color: #16182d;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+h5 {
+  font-size: 19px;
+  color: #16182d;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+p {
+  color: #676a70;
+  font-size: 16px;
+  line-height: 22px;
+}
