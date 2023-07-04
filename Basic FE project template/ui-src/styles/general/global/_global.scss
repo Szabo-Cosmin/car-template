@@ -12,7 +12,7 @@
 }
 
 h1 {
-  color: #16182d;
+  color: var(--primary-color);
   font-size: 48px;
   line-height: 53px;
   font-weight: 600;
@@ -21,13 +21,13 @@ h1 {
 
 h5 {
   font-size: 19px;
-  color: #16182d;
+  color: var(--primary-color);
   font-weight: 600;
   line-height: 27px;
 }
 
 p {
-  color: #676a70;
+  color: var(--secondery-color);
   font-size: 16px;
   line-height: 22px;
 }
