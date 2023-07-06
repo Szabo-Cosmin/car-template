@@ -1,24 +1,21 @@
-:root {
-  --primary-color: #16182d;
-  --secondery-color: #676a70;
-}
-
 * {
   margin: 0;
   top: 0;
   box-sizing: border-box;
 }
 
-.container {
-  width: 1380px;
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+body {
   font-family: "Syne", sans-serif;
 }
 
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: auto;
+}
+
 h1 {
-  color: var(--primary-color);
+  color: #16182d;
   font-size: 48px;
   line-height: 53px;
   font-weight: 600;
@@ -27,24 +24,27 @@ h1 {
 
 h5 {
   font-size: 19px;
-  color: var(--primary-color);
+  color: #16182d;
   font-weight: 600;
   line-height: 27px;
 }
 
 p {
-  color: var(--secondery-color);
+  color: #676a70;
   font-size: 16px;
   line-height: 22px;
 }
 
-.why-beleasing-flex {
+.why-beleasing {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.why-beleasing__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
 }
-
 .why-beleasing__title {
   max-width: 980px;
   width: 100%;
@@ -52,7 +52,7 @@ p {
   margin-top: 30px;
 }
 
-.description {
+.why-beleasing__description .description {
   margin-top: 35px;
   margin-bottom: 60px;
 }
@@ -63,14 +63,10 @@ p {
   align-items: start;
   padding: 0px;
 }
-
 .advantages__item {
-  margin-bottom: 40px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin: 0 12px 40px 12px;
 }
-
-.home--icon1 {
+.advantages .home--icon1 {
   width: 80px;
   height: 80px;
   border: 1px solid #e7e7e7;
@@ -78,12 +74,10 @@ p {
   text-align: center;
   margin-bottom: 25px;
 }
-
-.icon {
+.advantages .icon {
   margin-top: 20px;
 }
-
-.title-text {
+.advantages .title-text {
   margin-bottom: 10px;
 }
 
