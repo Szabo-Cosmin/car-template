@@ -1,0 +1,107 @@
+@media screen and (max-width: 1238px) {
+  .advantages {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .title-text {
+      font-size: 16px;
+      line-height: 23px;
+      letter-spacing: 0px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .why-beleasing {
+    &__container {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .advantages {
+      align-items: center;
+
+      &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+    }
+
+    .why-beleasing {
+      &__title {
+        max-width: 500px;
+        margin: 25px 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .why-beleasing {
+    &__title {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .why-beleasing {
+    margin: 55px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .why-beleasing {
+    &__title {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .why-beleasing {
+    margin: 5px;
+
+    &__title {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-left: 67px;
+    }
+  }
+
+  .description {
+    margin-left: 60px;
+  }
+}

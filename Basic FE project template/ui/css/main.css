@@ -36,8 +36,7 @@ p {
 }
 
 .why-beleasing {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px;
 }
 .why-beleasing__container {
   display: flex;
@@ -96,6 +95,89 @@ p {
   }
   60% {
     transform: translate(0, -30px);
+  }
+}
+@media screen and (max-width: 1238px) {
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .advantages .title-text {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0px;
+  }
+  .advantages p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .why-beleasing__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .why-beleasing .advantages {
+    align-items: center;
+  }
+  .why-beleasing .advantages__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .why-beleasing .why-beleasing__title {
+    max-width: 500px;
+    margin: 25px 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  .why-beleasing__title {
+    text-align: center;
+  }
+  .why-beleasing h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .why-beleasing {
+    margin: 55px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .why-beleasing__title {
+    text-align: center;
+  }
+  .why-beleasing h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .why-beleasing {
+    margin: 5px;
+  }
+  .why-beleasing__title {
+    text-align: center;
+  }
+  .why-beleasing h1 {
+    font-size: 28px;
+    margin-left: 67px;
+  }
+  .description {
+    margin-left: 60px;
   }
 }
 
