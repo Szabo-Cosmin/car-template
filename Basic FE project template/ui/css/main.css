@@ -36,7 +36,12 @@ p {
 }
 
 .why-beleasing {
-  margin: 100px;
+  margin: 100px 100px;
+}
+@media screen and (max-width: 500px) {
+  .why-beleasing {
+    margin: 55px;
+  }
 }
 .why-beleasing__container {
   display: flex;
@@ -44,11 +49,54 @@ p {
   justify-content: space-between;
   align-items: start;
 }
+@media screen and (max-width: 1000px) {
+  .why-beleasing__container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  .why-beleasing__container h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .why-beleasing__container h1 {
+    font-size: 28px;
+  }
+}
 .why-beleasing__title {
   max-width: 980px;
   width: 100%;
   margin-right: 10%;
   margin-top: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .why-beleasing__title {
+    max-width: 500px;
+    margin: 25px 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  .why-beleasing__title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .why-beleasing__title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1238px) {
+  .why-beleasing p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+  }
 }
 
 .why-beleasing__description .description {
@@ -62,10 +110,49 @@ p {
   align-items: start;
   padding: 0px;
 }
+@media screen and (max-width: 1238px) {
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .advantages {
+    align-items: center;
+  }
+}
 .advantages__item {
   margin: 0 12px 40px 12px;
 }
-.advantages .home--icon1 {
+@media screen and (max-width: 1238px) {
+  .advantages__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .advantages__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .advantages__img {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .advantages__img {
+    width: 300px;
+  }
+}
+.advantages .home-icon1 {
   width: 80px;
   height: 80px;
   border: 1px solid #e7e7e7;
@@ -73,11 +160,23 @@ p {
   text-align: center;
   margin-bottom: 25px;
 }
+@media screen and (max-width: 1238px) {
+  .advantages .home-icon1 {
+    margin: 0;
+  }
+}
 .advantages .icon {
   margin-top: 20px;
 }
 .advantages .title-text {
   margin-bottom: 10px;
+}
+@media screen and (max-width: 1238px) {
+  .advantages .title-text {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0px;
+  }
 }
 
 .advantages__item:hover,
@@ -95,89 +194,6 @@ p {
   }
   60% {
     transform: translate(0, -30px);
-  }
-}
-@media screen and (max-width: 1238px) {
-  .advantages {
-    display: flex;
-    flex-direction: column;
-  }
-  .advantages__item {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .advantages .title-text {
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: 0px;
-  }
-  .advantages p {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    letter-spacing: 0px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .why-beleasing__container {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  .why-beleasing .advantages {
-    align-items: center;
-  }
-  .why-beleasing .advantages__item {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .why-beleasing .why-beleasing__title {
-    max-width: 500px;
-    margin: 25px 0;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 530px) {
-  .why-beleasing__title {
-    text-align: center;
-  }
-  .why-beleasing h1 {
-    font-size: 36px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .why-beleasing {
-    margin: 55px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .why-beleasing__title {
-    text-align: center;
-  }
-  .why-beleasing h1 {
-    font-size: 32px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .why-beleasing {
-    margin: 5px;
-  }
-  .why-beleasing__title {
-    text-align: center;
-  }
-  .why-beleasing h1 {
-    font-size: 28px;
-    margin-left: 67px;
-  }
-  .description {
-    margin-left: 60px;
   }
 }
 
