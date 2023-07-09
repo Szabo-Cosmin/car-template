@@ -1,3 +1,36 @@
-div {
-  color: red;
+* {
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+}
+
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  color: $color--primary;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+h5 {
+  font-size: 19px;
+  color: $color--primary;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+p {
+  color: $color--secondary;
+  font-size: 16px;
+  line-height: 22px;
 }
