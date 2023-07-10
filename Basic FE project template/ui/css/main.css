@@ -184,4 +184,115 @@ p {
   }
 }
 
+.renting__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1160px) {
+  .renting__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 920px) {
+  .renting__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 530px) {
+  .renting__container h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .renting__container h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .renting__container h5 {
+    font-size: 15px;
+  }
+}
+.renting__small-container {
+  max-width: 440px;
+  width: 100%;
+  margin-right: 15px;
+}
+@media screen and (max-width: 920px) {
+  .renting__small-container {
+    text-align: -webkit-center;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .renting__small-container {
+    margin: 20px;
+  }
+}
+.renting__title {
+  margin-bottom: 45px;
+}
+.renting__description {
+  margin-bottom: 40px;
+}
+
+.btn__btn-text {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  padding: 20px 60px 20px 50px;
+  border-width: 1px;
+  border-radius: 0px;
+  background-color: #16182d;
+  color: #fff;
+  cursor: pointer;
+  font-family: Syne;
+}
+.btn__btn-text:active, .btn__btn-text:hover {
+  background-color: #212763;
+  transition: 0.5s all;
+}
+.btn__btn-arrow {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.class-images__audi {
+  width: 440px;
+  height: 375px;
+  margin-right: 15px;
+}
+@media screen and (max-width: 530px) {
+  .class-images__audi {
+    width: 350px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .class-images__audi {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+.car-classification__list {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  list-style-type: none;
+}
+.car-classification__arrow-list {
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
