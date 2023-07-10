@@ -5,16 +5,12 @@
     align-items: center;
 
     @media screen and (max-width: 1160px) {
-      display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
-      align-items: center;
     }
 
     @media screen and (max-width: 920px) {
-      display: flex;
       justify-content: center;
-      align-items: center;
       margin: auto;
     }
 
@@ -39,6 +35,7 @@
     max-width: 440px;
     width: 100%;
     margin-right: 15px;
+    margin-left: 20px;
 
     @media screen and (max-width: 920px) {
       text-align: -webkit-center;
@@ -72,13 +69,14 @@
     border-radius: 0px;
     background-color: $color--primary;
     color: #fff;
-    cursor: pointer;
-    font-family: Syne;
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
 
     &:active,
     &:hover {
       background-color: $color--btn-hover;
       transition: 0.5s all;
+      cursor: pointer;
     }
   }
 
@@ -116,5 +114,6 @@
 
   &__arrow-list {
     margin-right: 10px;
+    margin-top: 3px;
   }
 }

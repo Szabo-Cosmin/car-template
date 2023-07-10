@@ -20,6 +20,7 @@ h1 {
   line-height: 53px;
   font-weight: 600;
   letter-spacing: -2px;
+  text-transform: uppercase;
 }
 
 h5 {
@@ -191,17 +192,13 @@ p {
 }
 @media screen and (max-width: 1160px) {
   .renting__container {
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
   }
 }
 @media screen and (max-width: 920px) {
   .renting__container {
-    display: flex;
     justify-content: center;
-    align-items: center;
     margin: auto;
   }
 }
@@ -224,6 +221,7 @@ p {
   max-width: 440px;
   width: 100%;
   margin-right: 15px;
+  margin-left: 20px;
 }
 @media screen and (max-width: 920px) {
   .renting__small-container {
@@ -255,12 +253,13 @@ p {
   border-radius: 0px;
   background-color: #16182d;
   color: #fff;
-  cursor: pointer;
-  font-family: Syne;
+  font-family: "Syne", sans-serif;
+  text-transform: uppercase;
 }
 .btn__btn-text:active, .btn__btn-text:hover {
   background-color: #212763;
   transition: 0.5s all;
+  cursor: pointer;
 }
 .btn__btn-arrow {
   margin-left: 20px;
@@ -293,6 +292,7 @@ p {
 }
 .car-classification__arrow-list {
   margin-right: 10px;
+  margin-top: 3px;
 }
 
 /*# sourceMappingURL=main.css.map */
