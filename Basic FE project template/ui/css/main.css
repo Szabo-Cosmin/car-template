@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #212763;
+  color: #fff;
+}
+
 body {
   font-family: "Syne", sans-serif;
 }
@@ -20,6 +25,18 @@ h1 {
   line-height: 53px;
   font-weight: 600;
   letter-spacing: -2px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 530px) {
+  h1 {
+    font-size: 36px;
+    line-height: inherit;
+  }
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
 }
 
 h5 {
@@ -27,6 +44,11 @@ h5 {
   color: #16182d;
   font-weight: 600;
   line-height: 27px;
+}
+@media screen and (max-width: 920px) {
+  h5 {
+    font-size: 15px;
+  }
 }
 
 p {
@@ -41,6 +63,17 @@ p {
     font-weight: 400;
     letter-spacing: 0px;
   }
+}
+
+a,
+button {
+  transition: 0.3s all;
+}
+a:active, a:hover,
+button:active,
+button:hover {
+  transition: 0.3s all;
+  cursor: pointer;
 }
 
 @keyframes floating {
@@ -191,39 +224,21 @@ p {
 }
 @media screen and (max-width: 1160px) {
   .renting__container {
-    display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: center;
   }
 }
 @media screen and (max-width: 920px) {
   .renting__container {
-    display: flex;
     justify-content: center;
-    align-items: center;
     margin: auto;
-  }
-}
-@media screen and (max-width: 530px) {
-  .renting__container h1 {
-    font-size: 36px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .renting__container h1 {
-    font-size: 28px;
-  }
-}
-@media screen and (max-width: 920px) {
-  .renting__container h5 {
-    font-size: 15px;
   }
 }
 .renting__small-container {
   max-width: 440px;
   width: 100%;
   margin-right: 15px;
+  margin-left: 20px;
 }
 @media screen and (max-width: 920px) {
   .renting__small-container {
@@ -243,8 +258,9 @@ p {
   margin-bottom: 40px;
 }
 
-.btn__btn-text {
+.btn {
   display: flex;
+  align-items: center;
   justify-content: center;
   font-size: 14px;
   line-height: 14px;
@@ -255,12 +271,17 @@ p {
   border-radius: 0px;
   background-color: #16182d;
   color: #fff;
-  cursor: pointer;
-  font-family: Syne;
+  font-family: "Syne", sans-serif;
+  text-transform: uppercase;
 }
-.btn__btn-text:active, .btn__btn-text:hover {
+@media screen and (max-width: 340px) {
+  .btn {
+    width: 100%;
+    padding: 20px;
+  }
+}
+.btn:active, .btn:hover {
   background-color: #212763;
-  transition: 0.5s all;
 }
 .btn__btn-arrow {
   margin-left: 20px;
@@ -293,6 +314,7 @@ p {
 }
 .car-classification__arrow-list {
   margin-right: 10px;
+  margin-top: 3px;
 }
 
 /*# sourceMappingURL=main.css.map */
