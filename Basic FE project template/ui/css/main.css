@@ -39,6 +39,17 @@ h1 {
   }
 }
 
+h3 {
+  font-size: 33px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  color: #16182d;
+  text-transform: uppercase;
+}
+
 h5 {
   font-size: 19px;
   color: #16182d;
@@ -315,6 +326,53 @@ button:hover {
 .car-classification__arrow-list {
   margin-right: 10px;
   margin-top: 3px;
+}
+
+.car-type {
+  margin-top: 100px;
+}
+.car-type__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .car-type__list {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+  }
+}
+.car-type__container {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .car-type__container {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .car-type__container {
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+}
+.car-type__container:active, .car-type__container:hover {
+  transition: all 0.3s;
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: one;
+  animation-timing-function: ease-in;
+}
+.car-type__img {
+  width: 250px;
+  height: 140px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

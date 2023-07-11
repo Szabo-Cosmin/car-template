@@ -1,0 +1,48 @@
+.car-type {
+  margin-top: 100px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 1000px) {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+    @media screen and (max-width: 1000px) {
+      margin-bottom: 40px;
+    }
+
+    @media screen and (max-width: 520px) {
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+    }
+
+    &:active,
+    &:hover {
+      transition: all 0.3s;
+      animation-name: floating;
+      animation-duration: 1s;
+      animation-iteration-count: one;
+      animation-timing-function: ease-in;
+    }
+  }
+
+  &__img {
+    width: 250px;
+    height: 140px;
+    margin-right: 20px;
+  }
+}
