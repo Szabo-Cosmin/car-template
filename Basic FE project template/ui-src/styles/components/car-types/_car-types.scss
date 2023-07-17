@@ -9,7 +9,7 @@
 
     @media screen and (max-width: 1000px) {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
       width: 100%;
       margin: 0;
     }
@@ -21,12 +21,14 @@
     margin-right: 10px;
 
     @media screen and (max-width: 1000px) {
-      margin-bottom: 40px;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0 auto 40px auto;
+      max-width: 640px;
+      width: 100%;
     }
 
     @media screen and (max-width: 520px) {
-      flex-direction: column;
-      align-items: center;
       margin: 10px;
     }
 
@@ -44,5 +46,9 @@
     width: 250px;
     height: 140px;
     margin-right: 20px;
+  }
+
+  .car-model {
+    margin: 0 20px;
   }
 }
