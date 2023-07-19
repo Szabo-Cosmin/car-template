@@ -11,6 +11,7 @@
 
 body {
   font-family: "Syne", sans-serif;
+  position: relative;
 }
 
 .container {
@@ -115,6 +116,14 @@ button:hover {
   }
   60% {
     transform: translate(0, -30px);
+  }
+}
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
 .why-beleasing {
@@ -505,6 +514,26 @@ button:hover {
 }
 .car-partnes-list__img {
   height: 75%;
+}
+
+#btn-scroll {
+  top: 50%;
+  right: 0;
+  position: fixed;
+  padding: 12px;
+  background-color: #000;
+  border: none;
+}
+#btn-scroll .btn-scroll-arrow {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  animation: blink 0.8s steps(1, start) infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+#btn-scroll:active, #btn-scroll:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

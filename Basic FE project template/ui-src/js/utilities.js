@@ -1,8 +1,3 @@
-jQuery ? console.log("Working!") : console.log("Error!");
-console.log("pateu");
-
-
-
 const utilities = {
   backToTopButton: function () {
     const button = document.getElementById("btn-scroll");
