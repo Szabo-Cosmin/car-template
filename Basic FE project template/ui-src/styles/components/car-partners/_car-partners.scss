@@ -1,7 +1,7 @@
 .car-partners {
   margin-top: 100px;
 
-  .container {
+  .wrapper {
     display: flex;
     margin-bottom: 100px;
 
@@ -19,6 +19,10 @@
   &__small-container {
     position: relative;
     display: inline-block;
+
+    &:hover .overlay {
+      opacity: 5;
+    }
   }
 
   &__img {
@@ -36,10 +40,6 @@
     height: 50%;
     background-image: linear-gradient(0deg, #000000 5%, rgba(0, 0, 0, 0) 100%);
     opacity: 0;
-  }
-
-  &__small-container:hover .overlay {
-    opacity: 5;
   }
 
   &__text {
@@ -81,15 +81,13 @@
 
 .car-partners-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
   list-style-type: none;
+  gap: 20px;
   width: 100%;
   padding: 0;
-
-  @media screen and (max-width: 940px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   &__icons {
     padding: 10px;
@@ -97,10 +95,11 @@
     background: rgba(0, 0, 0, 0.01);
     text-align: center;
     line-height: 0;
-    width: 100%;
   }
 
   &__img {
-    height: 75%;
+    height: 100%;
+    max-height: 75px;
+    width: 150px;
   }
 }
