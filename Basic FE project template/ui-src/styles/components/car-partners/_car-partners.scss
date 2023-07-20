@@ -1,0 +1,105 @@
+.car-partners {
+  margin-top: 100px;
+
+  .wrapper {
+    display: flex;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 940px) {
+      margin-bottom: 50px;
+    }
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__small-container {
+    position: relative;
+    display: inline-block;
+
+    &:hover .overlay {
+      opacity: 5;
+    }
+  }
+
+  &__img {
+    max-width: 700px;
+    width: 100%;
+    max-height: 520px;
+    height: 100%;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(0deg, #000000 5%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+  }
+
+  &__text {
+    position: absolute;
+    top: 80%;
+    left: 6%;
+
+    @media screen and (max-width: 1050px) {
+      top: 70%;
+    }
+
+    @media screen and (max-width: 800px) {
+      top: 80%;
+    }
+
+    @media screen and (max-width: 450px) {
+      top: 72%;
+    }
+
+    @media screen and (max-width: 370px) {
+      top: 68%;
+    }
+  }
+
+  &__description {
+    color: $white;
+
+    @media screen and (max-width: 540px) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+.car-partners-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  list-style-type: none;
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+
+  &__icons {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.01);
+    text-align: center;
+    line-height: 0;
+  }
+
+  &__img {
+    height: 100%;
+    max-height: 75px;
+    width: 150px;
+  }
+}
