@@ -29,11 +29,23 @@
       </button>
 
       <section class="car-partners-banner">
-        <img
-          src="ui/assets/images/test-img.PNG"
-          alt="car-partners-banner-pic1"
-          class="car-partners-banner__img1"
-        />
+        <picture>
+          <source
+            media="(min-width:780px)"
+            srcset="ui/assets/images/test-img.png"
+            class="car-partners-banner__img1"
+          />
+          <source
+            media="(max-width:500px)"
+            srcset="ui/assets/images/test-img2.png"
+            class="car-partners-banner__img1"
+          />
+          <img
+            src="ui/assets/images/test-img3.PNG"
+            alt="responsiveImgCar"
+            class="car-partners-banner__img1"
+          />
+        </picture>
         <div class="container banner-container">
           <div class="car-partners-banner__small-container">
             <div>

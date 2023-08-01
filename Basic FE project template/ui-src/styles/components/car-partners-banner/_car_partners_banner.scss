@@ -3,6 +3,10 @@
 
   &__img1 {
     width: 100%;
+
+    @media screen and (max-width: 780px) {
+      height: 100%;
+    }
   }
 
   .banner-container {
@@ -13,9 +17,10 @@
     z-index: 3;
     height: fit-content;
     margin-bottom: 0;
+    margin-left: 20px;
 
     @media screen and (max-width: 780px) {
-      bottom: 0;
+      bottom: 20%;
     }
   }
 
@@ -24,16 +29,20 @@
     align-items: center;
     margin: 20px;
 
-    @media screen and (max-width: 375px) {
-      margin: 5px;
+    @media screen and (max-width: 780px) {
+      max-width: 500px;
+      width: 100%;
+      padding-right: 30px;
+      margin: 0 auto 30px auto;
     }
   }
 
   &__star {
     font-size: 16px;
-    color: $white;
-    opacity: 0.3;
+    color: $color--rating;
+    opacity: 0.15;
     margin-right: 2px;
+    transition: 0.3s ease-in;
   }
 
   &__star-box {
@@ -75,16 +84,12 @@
 .information {
   display: flex;
   width: 100%;
-  margin: 40px 20px 20px 20px;
+  margin: 40px 20px 20px 0px;
 
   @media screen and (max-width: 780px) {
     flex-direction: column;
-    margin: 20px 20px 20px 0px;
-    text-align: center;
-  }
-
-  @media screen and (max-width: 600px) {
-    margin: 5px 0px 10px 0px;
+    max-width: 500px;
+    margin: 0 auto;
   }
 
   &__details {
@@ -113,16 +118,9 @@
   }
 
   @media screen and (max-width: 780px) {
+    max-width: 250px;
     width: 100%;
-    margin: 0;
-  }
-
-  @media screen and (max-width: 500px) {
-    padding: 7px 0px 5px 0px;
-  }
-
-  @media screen and (max-width: 375px) {
-    font-size: 10px;
-    line-height: 7px;
+    margin: 20px auto;
+    padding: 18px 20px 18px 25px;
   }
 }
