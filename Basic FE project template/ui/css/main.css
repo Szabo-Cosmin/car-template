@@ -56,6 +56,12 @@ h2 {
 }
 @media screen and (max-width: 1100px) {
   h2 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h2 {
     font-size: 30px;
     line-height: 40px;
   }
@@ -131,8 +137,8 @@ h6 {
 }
 @media screen and (max-width: 1000px) {
   h6 {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 26px;
   }
 }
 @media screen and (max-width: 780px) {
@@ -617,11 +623,20 @@ button:hover {
   z-index: 3;
   height: fit-content;
   margin-bottom: 0;
-  margin-left: 20px;
+}
+@media screen and (max-width: 900px) {
+  .car-partners-banner .banner-container {
+    bottom: 50px;
+  }
 }
 @media screen and (max-width: 780px) {
   .car-partners-banner .banner-container {
     bottom: 20%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .car-partners-banner .banner-container {
+    bottom: 10%;
   }
 }
 .car-partners-banner__small-container {
@@ -683,8 +698,9 @@ button:hover {
 
 .information {
   display: flex;
+  max-width: 1340px;
   width: 100%;
-  margin: 40px 20px 20px 0px;
+  margin: 40px auto;
 }
 @media screen and (max-width: 780px) {
   .information {
