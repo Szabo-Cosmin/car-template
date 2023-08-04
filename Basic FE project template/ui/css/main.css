@@ -137,8 +137,8 @@ h6 {
 }
 @media screen and (max-width: 1000px) {
   h6 {
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 12px;
+    line-height: 22px;
   }
 }
 @media screen and (max-width: 780px) {
@@ -637,6 +637,12 @@ button:hover {
 @media screen and (max-width: 500px) {
   .car-partners-banner .banner-container {
     bottom: 10%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .car-partners-banner .banner-container {
+    bottom: 0%;
   }
 }
 .car-partners-banner__small-container {
@@ -721,6 +727,13 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 780px) {
+  .btn-size {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
 .btn {
   border: none;
   margin: 20px;
@@ -739,7 +752,7 @@ button:hover {
   .btn {
     max-width: 250px;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 20px 0px;
     padding: 18px 20px 18px 25px;
   }
 }

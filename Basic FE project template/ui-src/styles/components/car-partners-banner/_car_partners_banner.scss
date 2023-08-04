@@ -28,6 +28,11 @@
 
     @media screen and (max-width: 500px) {
       bottom: 10%;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: 320px) {
+      bottom: 0%;
     }
   }
 
@@ -113,6 +118,13 @@
   }
 }
 
+.btn-size {
+  @media screen and (max-width: 780px) {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
 .btn {
   border: none;
   margin: 20px;
@@ -128,7 +140,7 @@
   @media screen and (max-width: 780px) {
     max-width: 250px;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 20px 0px;
     padding: 18px 20px 18px 25px;
   }
 }
