@@ -123,6 +123,8 @@
 }
 
 .btn-size {
+  margin: 20px;
+
   @media screen and (max-width: 780px) {
     max-width: 500px;
     margin: 0 auto;

@@ -1,0 +1,113 @@
+.video-section {
+  position: relative;
+  overflow: hidden;
+  max-height: 700px;
+  margin-top: 50px;
+
+  &__video {
+    max-width: 100%;
+    width: 100%;
+
+    @media screen and (max-width: 770px) {
+      max-width: none;
+      width: auto;
+    }
+  }
+}
+
+.calculation-section {
+  margin-top: -91px;
+}
+
+.video-container {
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  transform: translateX(-50%);
+  margin: 20px;
+
+  @media screen and (max-width: 950px) {
+    max-width: 708px;
+  }
+
+  @media screen and (max-width: 770px) {
+    max-width: 485px;
+  }
+
+  &__title {
+    color: $white;
+    width: 55%;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: 950px) {
+      width: 80%;
+    }
+  }
+}
+
+.calculation {
+  max-width: 1380px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+
+  @media screen and (max-width: 950px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 708px;
+  }
+
+  @media screen and (max-width: 770px) {
+    max-width: 485px;
+  }
+
+  &__box {
+    padding: 30px 40px 40px 40px;
+    margin: 1px;
+    width: 25%;
+    background-color: $white;
+    text-align: left;
+
+    @media screen and (max-width: 950px) {
+      width: auto;
+      padding: 20px 30px 10px 30px;
+    }
+
+    @media screen and (max-width: 770px) {
+      padding: 5px 20px 10px 30px;
+    }
+  }
+
+  &__small-title {
+    color: $color--primary;
+    margin-bottom: 15px;
+
+    @media screen and (max-width: 950px) {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__number {
+    color: $color--primary;
+    font-size: 48px;
+    line-height: 53px;
+    font-weight: 600;
+
+    @media screen and (max-width: 950px) {
+      font-size: 28px;
+      line-height: 35px;
+      font-weight: 600;
+    }
+  }
+
+  &__dolar {
+    font-size: 50px;
+  }
+}
+
+.btn {
+  @media screen and (max-width: 950px) {
+    margin: 0;
+  }
+}
