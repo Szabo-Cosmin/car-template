@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         src: [
           "ui-src/js/test.js",
           "ui-src/js/utilities.js",
-          "ui-src/js/increase-number.js",
+          "ui-src/js/animatedCounter.js",
         ],
         dest: "ui/js/main.js",
         options: {
