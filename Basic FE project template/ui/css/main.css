@@ -761,6 +761,9 @@ button:hover {
   }
 }
 
+.btn-size {
+  margin: 20px;
+}
 @media screen and (max-width: 780px) {
   .btn-size {
     max-width: 500px;
@@ -787,6 +790,124 @@ button:hover {
     width: 100%;
     margin: 20px auto 20px 0px;
     padding: 18px 20px 18px 25px;
+  }
+}
+
+.video-section {
+  position: relative;
+  overflow: hidden;
+  max-height: 700px;
+  margin-top: 50px;
+}
+.video-section__video {
+  max-width: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 770px) {
+  .video-section__video {
+    max-width: none;
+    width: auto;
+  }
+}
+
+.calculation-section {
+  margin-top: -91px;
+}
+
+.video-container {
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  transform: translateX(-50%);
+  margin: 20px;
+}
+@media screen and (max-width: 950px) {
+  .video-container {
+    max-width: 708px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .video-container {
+    max-width: 485px;
+  }
+}
+.video-container__title {
+  color: #fff;
+  width: 55%;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 950px) {
+  .video-container__title {
+    width: 80%;
+  }
+}
+
+.calculation {
+  max-width: 1380px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+@media screen and (max-width: 950px) {
+  .calculation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 708px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .calculation {
+    max-width: 485px;
+  }
+}
+.calculation__box {
+  padding: 30px 40px 40px 40px;
+  margin: 1px;
+  width: 25%;
+  background-color: #fff;
+  text-align: left;
+}
+@media screen and (max-width: 950px) {
+  .calculation__box {
+    width: auto;
+    padding: 20px 30px 10px 30px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .calculation__box {
+    padding: 5px 20px 10px 30px;
+  }
+}
+.calculation__small-title {
+  color: #16182d;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 950px) {
+  .calculation__small-title {
+    margin-bottom: 5px;
+  }
+}
+.calculation__number {
+  color: #16182d;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 600;
+}
+@media screen and (max-width: 950px) {
+  .calculation__number {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+}
+.calculation__dolar {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 950px) {
+  .btn {
+    margin: 0;
   }
 }
 

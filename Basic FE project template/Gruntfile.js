@@ -2,7 +2,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
       js: {
-        src: ["ui-src/js/test.js", "ui-src/js/utilities.js"],
+        src: [
+          "ui-src/js/test.js",
+          "ui-src/js/utilities.js",
+          "ui-src/js/animatedCounter.js",
+        ],
         dest: "ui/js/main.js",
         options: {
           separator: "\n\n",
