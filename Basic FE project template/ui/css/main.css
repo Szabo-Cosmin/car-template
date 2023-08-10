@@ -911,4 +911,48 @@ button:hover {
   }
 }
 
+.payment-section {
+  background-color: #f4f4f4;
+  position: relative;
+}
+.payment-section__small-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beleasing-pay {
+  max-width: 100%;
+  width: 100%;
+}
+.beleasing-pay__small-text {
+  color: #73758a;
+  margin-bottom: 10px;
+}
+.beleasing-pay__main-title {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.beleasing-pay__nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  font-size: 16px;
+  color: #16182d;
+  list-style-type: none;
+  padding: 0;
+}
+.beleasing-pay__plus-icon {
+  font-size: 37px;
+  margin-right: 20px;
+}
+.beleasing-pay__nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.btn-payment-car {
+  margin-top: 40px;
+}
+
 /*# sourceMappingURL=main.css.map */

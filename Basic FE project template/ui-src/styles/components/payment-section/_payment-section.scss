@@ -1,0 +1,49 @@
+.payment-section {
+  background-color: $background-color;
+  position: relative;
+
+  &__small-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.beleasing-pay {
+  max-width: 100%;
+  width: 100%;
+
+  &__small-text {
+    color: $color--rating-1;
+    margin-bottom: 10px;
+  }
+
+  &__main-title {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  &__nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    font-size: 16px;
+    color: $color--primary;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  &__plus-icon {
+    font-size: 37px;
+    margin-right: 20px;
+  }
+
+  &__nav-list {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.btn-payment-car {
+  margin-top: 40px;
+}
