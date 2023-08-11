@@ -811,7 +811,8 @@ button:hover {
 }
 
 .calculation-section {
-  margin-top: -91px;
+  margin-top: -96px;
+  background-color: #f4f4f4;
 }
 
 .video-container {
@@ -913,7 +914,6 @@ button:hover {
 
 .payment-section {
   background-color: #f4f4f4;
-  position: relative;
 }
 .payment-section__small-container {
   display: flex;
@@ -924,7 +924,7 @@ button:hover {
   .payment-section__small-container {
     display: block;
     text-align: center;
-    margin: 10px;
+    margin: 0px 10px 0px 10p;
   }
 }
 @media screen and (max-width: 1210px) {

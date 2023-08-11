@@ -1,6 +1,5 @@
 .payment-section {
   background-color: $background-color;
-  position: relative;
 
   &__small-container {
     display: flex;
@@ -10,7 +9,7 @@
     @media screen and (max-width: 770px) {
       display: block;
       text-align: center;
-      margin: 10px;
+      margin: 0px 10px 0px 10p;
     }
   }
 
