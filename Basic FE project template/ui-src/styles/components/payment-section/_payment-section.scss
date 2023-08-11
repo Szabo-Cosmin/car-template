@@ -6,12 +6,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 770px) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__car-img {
+    @media screen and (max-width: 1210px) {
+      width: 260px;
+    }
+
+    @media screen and (max-width: 770px) {
+      max-width: 485px;
+      width: 100%;
+    }
   }
 }
 
 .beleasing-pay {
   max-width: 100%;
   width: 100%;
+
+  @media screen and (max-width: 770px) {
+    max-width: 485px;
+    margin: 0 auto;
+    text-align: left;
+  }
 
   &__small-text {
     color: $color--rating-1;
@@ -31,6 +53,12 @@
     color: $color--primary;
     list-style-type: none;
     padding: 0;
+
+    @media screen and (max-width: 770px) {
+      display: block;
+      line-height: 60px;
+      font-size: 12px;
+    }
   }
 
   &__plus-icon {

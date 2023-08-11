@@ -920,10 +920,34 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 770px) {
+  .payment-section__small-container {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .payment-section__car-img {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .payment-section__car-img {
+    max-width: 485px;
+    width: 100%;
+  }
+}
 
 .beleasing-pay {
   max-width: 100%;
   width: 100%;
+}
+@media screen and (max-width: 770px) {
+  .beleasing-pay {
+    max-width: 485px;
+    margin: 0 auto;
+    text-align: left;
+  }
 }
 .beleasing-pay__small-text {
   color: #73758a;
@@ -941,6 +965,13 @@ button:hover {
   color: #16182d;
   list-style-type: none;
   padding: 0;
+}
+@media screen and (max-width: 770px) {
+  .beleasing-pay__nav {
+    display: block;
+    line-height: 60px;
+    font-size: 12px;
+  }
 }
 .beleasing-pay__plus-icon {
   font-size: 37px;
