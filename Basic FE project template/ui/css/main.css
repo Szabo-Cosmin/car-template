@@ -924,6 +924,7 @@ button:hover {
   .payment-section__small-container {
     display: block;
     text-align: center;
+    margin: 10px;
   }
 }
 @media screen and (max-width: 1210px) {
