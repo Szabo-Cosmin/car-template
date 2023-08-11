@@ -914,6 +914,7 @@ button:hover {
 
 .payment-section {
   background-color: #f4f4f4;
+  padding-top: 50px;
 }
 .payment-section__small-container {
   display: flex;
