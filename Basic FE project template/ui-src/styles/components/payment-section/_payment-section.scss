@@ -10,7 +10,7 @@
     @media screen and (max-width: 770px) {
       display: block;
       text-align: center;
-      margin: 0px 10px 0px 10p;
+      margin: 0px 10px 0px 10px;
     }
   }
 
@@ -37,7 +37,7 @@
   }
 
   &__small-text {
-    color: $color--rating-1;
+    color: $color--small-text;
     margin-bottom: 10px;
   }
 
@@ -65,6 +65,7 @@
   &__plus-icon {
     font-size: 37px;
     margin-right: 20px;
+    margin-bottom: 3px;
   }
 
   &__nav-list {
