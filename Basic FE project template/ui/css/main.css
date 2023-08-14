@@ -443,8 +443,8 @@ button:hover {
 }
 @media screen and (max-width: 478px) {
   .class-images__audi {
-    width: 300px;
-    height: 250px;
+    width: 285px;
+    height: 246px;
   }
 }
 
@@ -811,7 +811,8 @@ button:hover {
 }
 
 .calculation-section {
-  margin-top: -91px;
+  margin-top: -96px;
+  background-color: #f4f4f4;
 }
 
 .video-container {
@@ -908,6 +909,108 @@ button:hover {
 @media screen and (max-width: 950px) {
   .btn {
     margin: 0;
+  }
+}
+
+.payment-section {
+  background-color: #f4f4f4;
+  padding-top: 50px;
+}
+.payment-section__small-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 770px) {
+  .payment-section__small-container {
+    display: block;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 5px;
+  }
+}
+.payment-section__car-img {
+  width: 436px;
+  margin-bottom: 45px;
+}
+@media screen and (max-width: 1210px) {
+  .payment-section__car-img {
+    width: 260px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .payment-section__car-img {
+    max-width: 485px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
+
+.beleasing-pay {
+  max-width: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 770px) {
+  .beleasing-pay {
+    max-width: 485px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+.beleasing-pay__small-text {
+  color: #73758a;
+  margin-bottom: 10px;
+  border: none;
+  margin-top: 50px;
+}
+.beleasing-pay__main-title {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.beleasing-pay__nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px;
+  font-size: 16px;
+  color: #16182d;
+  list-style-type: none;
+  padding: 0;
+}
+@media screen and (max-width: 770px) {
+  .beleasing-pay__nav {
+    display: block;
+    font-size: 12px;
+  }
+}
+.beleasing-pay__plus-icon {
+  font-size: 37px;
+  margin-right: 20px;
+  margin-bottom: 3px;
+  line-height: 19px;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.beleasing-pay__nav-list {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 770px) {
+  .beleasing-pay__nav-list {
+    margin-bottom: 15px;
+  }
+}
+
+.btn-payment-car {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 770px) {
+  .btn-payment-car {
+    margin-bottom: 50px;
   }
 }
 
