@@ -11,10 +11,14 @@
       display: block;
       text-align: center;
       margin: 0px 10px 0px 10px;
+      padding-bottom: 5px;
     }
   }
 
   &__car-img {
+    width: 436px;
+    margin-bottom: 45px;
+
     @media screen and (max-width: 1210px) {
       width: 260px;
     }
@@ -22,6 +26,7 @@
     @media screen and (max-width: 770px) {
       max-width: 485px;
       width: 100%;
+      margin-bottom: 0px;
     }
   }
 }
@@ -39,17 +44,19 @@
   &__small-text {
     color: $color--small-text;
     margin-bottom: 10px;
+    border: none;
+    margin-top: 50px;
   }
 
   &__main-title {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
   &__nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    gap: 17px;
     font-size: 16px;
     color: $color--primary;
     list-style-type: none;
@@ -57,7 +64,7 @@
 
     @media screen and (max-width: 770px) {
       display: block;
-      line-height: 60px;
+      // line-height: 60px;
       font-size: 12px;
     }
   }
@@ -66,14 +73,30 @@
     font-size: 37px;
     margin-right: 20px;
     margin-bottom: 3px;
+    line-height: 19px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
   }
 
   &__nav-list {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 770px) {
+      margin-bottom: 15px;
+    }
   }
 }
 
 .btn-payment-car {
-  margin-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+  @media screen and (max-width: 770px) {
+    margin-bottom: 50px;
+  }
 }
