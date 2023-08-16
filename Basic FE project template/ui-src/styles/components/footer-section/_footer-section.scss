@@ -156,4 +156,8 @@ ul li:first-child {
   color: $colo-links;
   margin-bottom: 50px;
   padding: 0 10px 0 10px;
+
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
 }

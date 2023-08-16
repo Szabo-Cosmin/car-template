@@ -1170,5 +1170,10 @@ ul li:first-child {
   margin-bottom: 50px;
   padding: 0 10px 0 10px;
 }
+@media screen and (max-width: 600px) {
+  .copyright {
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
