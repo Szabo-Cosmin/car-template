@@ -1,0 +1,159 @@
+.footer-section {
+  width: 100%;
+  &__footer-template {
+    background-color: $color--primary;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  &__text {
+    border: none;
+    padding-top: 12px;
+    text-transform: none;
+
+    @media screen and (max-width: 770px) {
+      line-height: 0;
+      margin-bottom: 14px;
+    }
+  }
+
+  &__logo-footer {
+    display: flex;
+    align-items: end;
+
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__logo-img {
+    width: 87px;
+    margin-right: 20px;
+  }
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 0 10px 0 10px;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+
+.social-media {
+  &__list {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    list-style-type: none;
+    color: white;
+    margin-right: 20px;
+
+    @media screen and (max-width: 600px) {
+      justify-content: center;
+      margin-right: 40px;
+    }
+  }
+
+  &__links {
+    text-decoration: none;
+    color: white !important;
+  }
+}
+
+.footer-nav {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+  padding: 40px 10px 0 10px;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    text-align: center;
+  }
+
+  &__contacts {
+    list-style-type: none;
+    color: white;
+    width: 25%;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: start;
+    font-family: "Poppins";
+    text-transform: capitalize;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  &__contact-list {
+    padding-bottom: 10px;
+  }
+
+  &__finance-detalies {
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    line-height: 1.8;
+    color: $colo-links;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+    font-family: "Poppins";
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: $colo-links;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+ul li:first-child {
+  color: white;
+}
+
+.links-text .text:nth-child(5) {
+  color: white;
+  margin-top: 25px;
+}
+
+.copyright {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 15px;
+  color: $colo-links;
+  margin-bottom: 50px;
+  padding: 0 10px 0 10px;
+}

@@ -1014,4 +1014,161 @@ button:hover {
   }
 }
 
+.footer-section {
+  width: 100%;
+}
+.footer-section__footer-template {
+  background-color: #16182d;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-section__text {
+  border: none;
+  padding-top: 12px;
+  text-transform: none;
+}
+@media screen and (max-width: 770px) {
+  .footer-section__text {
+    line-height: 0;
+    margin-bottom: 14px;
+  }
+}
+.footer-section__logo-footer {
+  display: flex;
+  align-items: end;
+}
+@media screen and (max-width: 600px) {
+  .footer-section__logo-footer {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+.footer-section__logo-img {
+  width: 87px;
+  margin-right: 20px;
+}
+
+.container-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding: 0 10px 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .container-logo {
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+
+.social-media__list {
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+  list-style-type: none;
+  color: white;
+  margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  .social-media__list {
+    justify-content: center;
+    margin-right: 40px;
+  }
+}
+.social-media__links {
+  text-decoration: none;
+  color: white !important;
+}
+
+.footer-nav {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 100px;
+  padding: 40px 10px 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .footer-nav {
+    display: block;
+    text-align: center;
+  }
+}
+.footer-nav__contacts {
+  list-style-type: none;
+  color: white;
+  width: 25%;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: start;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+@media screen and (max-width: 600px) {
+  .footer-nav__contacts {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+.footer-nav__contacts :hover {
+  cursor: pointer;
+}
+.footer-nav__contact-list {
+  padding-bottom: 10px;
+}
+.footer-nav__finance-detalies {
+  list-style-type: none;
+  padding: 0;
+  width: 25%;
+  line-height: 1.8;
+  color: #6d6f7d;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: start;
+  font-family: "Poppins";
+}
+@media screen and (max-width: 600px) {
+  .footer-nav__finance-detalies {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #6d6f7d;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+ul li:first-child {
+  color: white;
+}
+
+.links-text .text:nth-child(5) {
+  color: white;
+  margin-top: 25px;
+}
+
+.copyright {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 15px;
+  color: #6d6f7d;
+  margin-bottom: 50px;
+  padding: 0 10px 0 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
