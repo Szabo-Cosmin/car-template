@@ -75,6 +75,22 @@
   margin-bottom: 100px;
   padding: 40px 10px 0 10px;
 
+  ul li:first-child {
+    color: white;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: $colo-links;
+  }
+
+  a:hover,
+  a:active {
+    text-decoration: underline;
+    color: white;
+  }
+
   @media screen and (max-width: 600px) {
     display: block;
     text-align: center;
@@ -124,22 +140,6 @@
       margin-bottom: 20px;
     }
   }
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: $colo-links;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
-  color: white;
-}
-
-ul li:first-child {
-  color: white;
 }
 
 .links-text .text:nth-child(5) {

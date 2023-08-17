@@ -1,0 +1,119 @@
+.new-cars-section {
+  background-color: $background-color;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 20px 50px 20px;
+
+    @media screen and (max-width: 800px) {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+
+      @media screen and (max-width: 550px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__main-text {
+    width: 100%;
+
+    @media screen and (max-width: 800px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: "Syne";
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid $background-color;
+    background-color: $white;
+
+    &:hover {
+      transition: none;
+      border: 1px solid $white;
+      background-color: $background-color;
+    }
+  }
+
+  &__btn-icon {
+    font-size: 16px;
+  }
+}
+
+.new-model-cars {
+  display: flex;
+  gap: 25px;
+  padding: 10px 20px 100px 20px;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 550px) {
+      width: 100%;
+    }
+  }
+
+  &__box {
+    background-color: $white;
+  }
+
+  &__img {
+    margin-bottom: -4px;
+
+    @media screen and (max-width: 800px) {
+      width: 484px;
+      padding-top: 30px;
+    }
+  }
+
+  &__cars-name {
+    text-transform: uppercase;
+    padding: 30px 0px 20px 34px;
+
+    &::after {
+      border: 0.5px solid $color--line-bar;
+      content: "";
+      display: block;
+      height: 0px;
+      width: 90%;
+      margin-top: 25px;
+    }
+  }
+
+  &__small-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 30px 34px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__small-text-arrow {
+    margin-right: 34px;
+    color: $black;
+    padding: 6px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: $color--line-bar;
+    border-width: 0.5px;
+    border-radius: 100%;
+  }
+}
