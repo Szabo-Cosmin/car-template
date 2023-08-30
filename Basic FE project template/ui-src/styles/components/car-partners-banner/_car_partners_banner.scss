@@ -23,7 +23,7 @@
     }
 
     @media screen and (max-width: 900px) {
-      bottom: 50px;
+      bottom: 0px;
     }
 
     @media screen and (max-width: 780px) {
@@ -107,6 +107,7 @@
     flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
+    padding-top: 20px;
   }
 
   &__details {
