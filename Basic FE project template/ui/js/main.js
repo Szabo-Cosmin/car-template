@@ -113,7 +113,6 @@ hiddenDiv.addEventListener("mouseout", () => {
 
 hiddenDiv.style.display = "none";
 
-
 const menu = document.querySelector(".sidebar");
 const hamburger = document.querySelector(".btn-bar");
 const closeIcon = document.querySelector(".close-icon");

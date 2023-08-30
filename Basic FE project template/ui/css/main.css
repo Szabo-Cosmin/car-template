@@ -1347,7 +1347,7 @@ button:hover {
 }
 .menu-details__list-details:hover {
   background-color: #16182d;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 .menu-details__arrow-icon {
