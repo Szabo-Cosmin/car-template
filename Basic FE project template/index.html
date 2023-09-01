@@ -26,6 +26,125 @@
 
   <body>
     <main>
+      <header class="menu">
+        <div class="container container-bar">
+          <div class="menu__small-container">
+            <a href="#" class="menu__logo">
+              <img
+                class="menu__img-loco"
+                src="ui/assets/images/icons/beleasing2-logo.svg"
+                alt="logo"
+              />
+            </a>
+
+            <h6 class="menu__text">luxury cars for you</h6>
+          </div>
+
+          <div class="menu-details">
+            <ul class="menu-details__list">
+              <li class="menu-details__list-details">home</li>
+
+              <li class="menu-details__list-details hover-trigger">
+                offer
+                <ion-icon
+                  class="menu-details__arrow-icon"
+                  name="chevron-down-outline"
+                ></ion-icon>
+              </li>
+
+              <li class="menu-details__list-details">about</li>
+
+              <li class="menu-details__list-details">contact</li>
+            </ul>
+          </div>
+
+          <button class="btn-bar">
+            <ion-icon class="menu-icon" name="menu-outline"> </ion-icon>
+
+            <ion-icon class="close-icon" name="close-outline"></ion-icon>
+          </button>
+
+          <aside class="sidebar">
+            <ul class="sidebar__right-bar">
+              <li class="sidebar__list-bar">
+                <a class="sidebar__links-bar" href="#">
+                  <span class="sidebar__text">home</span>
+                </a>
+              </li>
+
+              <li class="sidebar__list-bar">
+                <a class="sidebar__links-bar" href="#">
+                  <span class="sidebar__text">offer</span>
+                </a>
+              </li>
+
+              <li class="sidebar__list-bar">
+                <a class="sidebar__links-bar" href="#">
+                  <span class="sidebar__text">about</span>
+                </a>
+              </li>
+
+              <li class="sidebar__list-bar">
+                <a class="sidebar__links-bar" href="#">
+                  <span class="sidebar__text">contact</span>
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="container hover-container">
+          <div>
+            <h4 class="hover-container__text">choose from 1,200 new cars</h4>
+          </div>
+          <ul class="hover-container__cars">
+            <li class="hover-container__cars-img-list">
+              <img
+                class="hover-container__img"
+                src="ui/assets/images/beleasing2-category3.webp"
+                alt="new-car"
+              />
+              <h6 class="hover-container__all-cars">sedan</h6>
+            </li>
+
+            <li class="hover-container__cars-img-list">
+              <img
+                class="hover-container__img"
+                src="ui/assets/images/beleasing2-category4.webp"
+                alt="new-car"
+              />
+              <h6 class="hover-container__all-cars">hatchback</h6>
+            </li>
+
+            <li class="hover-container__cars-img-list">
+              <img
+                class="hover-container__img"
+                src="ui/assets/images/beleasing2-category1.webp"
+                alt="new-car"
+              />
+              <h6 class="hover-container__all-cars">combi</h6>
+            </li>
+
+            <li class="hover-container__cars-img-list">
+              <img
+                class="hover-container__img"
+                src="ui/assets/images/beleasing2-category2.webp"
+                alt=""
+              />
+              <h6 class="hover-container__all-cars">suv</h6>
+            </li>
+
+            <li class="hover-container__cars-img-list">
+              <img
+                class="hover-container__img"
+                src="ui/assets/images/beleasing2-category5.webp"
+                alt=""
+              />
+              <h6 class="hover-container__all-cars">all cars</h6>
+            </li>
+          </ul>
+        </div>
+      </header>
       <button class="btn-scroll js-btn-scroll">
         <ion-icon
           class="btn-scroll__arrow"
@@ -35,6 +154,7 @@
 
       <section class="car-partners-banner">
         <picture>
+          <div class="overlay"></div>
           <source
             media="(min-width:780px)"
             srcset="ui/assets/images/test-img.png"
@@ -378,7 +498,6 @@
               src="ui/assets/images/beleasing2-home-pic1.webp"
               alt="car-partnes-pic1"
             />
-            <div class="overlay"></div>
             <div class="car-partners__text">
               <h4>
                 <a class="car-partners__link" href="#">audi litora nec amet </a>
@@ -396,7 +515,7 @@
               src="ui/assets/images/beleasing2-home-pic2.webp"
               alt="car-partnes-pic2"
             />
-            <div class="overlay"></div>
+
             <div class="car-partners__text">
               <h4>
                 <a class="car-partners__link" href="#"
