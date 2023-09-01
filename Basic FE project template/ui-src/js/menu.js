@@ -43,5 +43,6 @@ document.onclick = function (e) {
     hamburger.classList.remove("sidebar-translate");
     closeIcon.style.display = "none";
     menuIcon.style.display = "block";
+    overlay.style.display = "none";
   }
 };
